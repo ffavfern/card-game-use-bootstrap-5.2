@@ -1,0 +1,88 @@
+:root {
+    --Verydarkbluebg: hsl(217, 54%, 11%);
+    --Verydarkblue: hsl(216, 50%, 16%);
+    --Verydarkbluep: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+}
+
+body {
+    font-family: 'Outfit';
+    margin: 0;
+    padding: 0;
+    background-color: var(--Verydarkbluebg);
+}
+
+p {
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--Verydarkbluep);
+    align-items: center;
+}
+
+.card {
+    background-color: var(--Verydarkblue);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+h6 {
+    font-weight: 600;
+    color: var(--White);
+}
+
+span {
+    color: var(--White);
+    margin-left: 5px;
+}
+
+.avatar {
+    border: 1px solid var(--White);
+    border-radius: 100%;
+    margin-right: 10px;
+    width: 30px;
+}
+
+.eth {
+    color: var(--Cyan);
+}
+
+.timeandeth {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    
+}
+
+.piceth {
+    margin-right: 5px;
+}
+.img-main {
+    border-radius: 8%;
+}
+hr {
+    color: var(--Verydarkbluep);
+}
+.row>* {
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    
+}
+.about {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.clock {
+    margin-right: 5px;
+}
+.main {
+    margin-top: 5%;   
+}
+@media only screen and (max-width: 375px) {
+    .main {
+        margin-top: 20%;
+    }
+  }
